@@ -1,14 +1,6 @@
 
 # import the necessary packages
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import timeit
-import warnings
-warnings.filterwarnings("ignore")
 import streamlit as st
-
-
 from PIL import Image
 
 
