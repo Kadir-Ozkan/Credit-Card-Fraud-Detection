@@ -20,7 +20,7 @@ with col2:
 
 df=st.cache(pd.read_csv)('ccfraud_mini.csv')
 
-st.write("###### Please change the values of the columns below.")
+st.success("###### You can change the values of the columns below to make prediction for credit card fraud.")
 
 
 col1, col2 = st.columns([4, 4])
