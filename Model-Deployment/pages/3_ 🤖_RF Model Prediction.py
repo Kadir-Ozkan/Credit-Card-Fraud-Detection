@@ -20,7 +20,8 @@ with col2:
 
 df=st.cache(pd.read_csv)('ccfraud_mini.csv')
 
-st.write("###### Please change the values of the columns below."
+st.write("###### Please change the values of the columns below.")
+
 
 col1, col2 = st.columns([4, 4])
 with col1:
